@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\KingmeatRequest;
 use App\Models\Category;
 use App\Models\Menu;
 use Illuminate\Http\Request;
 
-use function PHPUnit\Framework\returnSelf;
+// use function PHPUnit\Framework\returnSelf;
 
 class KingmeatController extends Controller
 {
@@ -21,7 +22,7 @@ class KingmeatController extends Controller
         return view('index', $param);
     }
 
-    public function create(Request $request)
+    public function create(KingmeatRequest $request)
     {
         if ($request->image) {
             $filename = $request->image->getClientOriginalName();

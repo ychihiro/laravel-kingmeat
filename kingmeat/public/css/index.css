@@ -204,3 +204,18 @@ label, select { display: block; }
   background-color: #c53f38;
   cursor: pointer;
 }
+
+/* バリデーション */
+.error-name {
+  width: 200px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  color: red;
+}
+
+.error-price,
+.error-calorie {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: red;
+}
