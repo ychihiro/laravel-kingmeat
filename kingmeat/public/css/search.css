@@ -1,0 +1,180 @@
+main {
+  padding: 60px 60px;
+  background-color: #222;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #666;
+}
+
+select {
+  padding: 5px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #666;
+  color: #333;
+  background-color: rgb(244, 214, 214);
+}
+
+
+/* 登録画面 */
+.search-wrapper {
+  width: 700px;
+  margin: 120px auto 180px;
+  padding: 70px 70px 40px 70px;
+  border-radius: 10px;
+  background-color: #e28e7c;
+}
+
+label,
+select {
+  display: block;
+}
+
+.form1-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.menu {
+  width: 500px;
+  height: 45px;
+  font-size: 25px;
+}
+
+.menu input {
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form2-wrapper {
+  text-align: left;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.input-number {
+  font-size: 22px;
+}
+
+.input-number input {
+  padding: 10px;
+  width: 80px;
+  font-size: 15px;
+}
+
+.search-btn {
+  width: 115px;
+  height: 48px;
+  margin-left: 85%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  font-size: 16px;
+  color: #fff;
+  background-color: #692927;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background-color: #c53f38;
+}
+
+/* メニュー画面 */
+.grid-wrap {
+  display: grid;
+  gap: 25px;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.grid-box {
+  border: solid 4px #692927;
+}
+
+.grid-box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 250px;
+}
+
+.inner-box {
+  color: #fff;
+  padding: 20px;
+}
+
+.menu-name {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.detail-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.detail-inner p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.category {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #333;
+  border: 1px solid #fff;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.del-btn {
+  display: block;
+  width: 70px;
+  height: 40px;
+  margin-left: 250px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  background-color: #692927;
+}
+
+.del-btn:hover {
+  background-color: #c53f38;
+  cursor: pointer;
+}
+
+.return-btn {
+  display: block;
+  width: 115px;
+  height: 48px;
+  margin-top: 50px;
+  margin-left: 60px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  background-color: #692927;
+  color: #fff;
+}
+.return-btn:hover {
+  background-color: #c53f38;
+  cursor: pointer;
+}
